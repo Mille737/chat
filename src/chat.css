@@ -1,0 +1,68 @@
+.page {
+    margin: 70px 300px;
+}
+
+img {
+    border-radius: 50%;
+    width: 65px;
+    padding: 5px;
+
+}
+
+.containerLeft {
+    float: left;
+    margin: 10px;
+    background-color: lightsteelblue;
+    border-radius: 5px;
+}
+
+#avatarLeft {
+    padding: 15px;
+}
+
+.textContainer {
+    float: right;
+}
+
+
+#dateTime {
+    text-align: right;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+.containerRight {
+    text-align: right;
+    margin: 15px;
+    display: flex;
+}
+
+
+
+
+
+.imgright {
+    float: right;
+}
+
+
+
+
+#dateTime1 {
+    text-align: left;
+}
+
+.textField {
+    width: 350px;
+    height: 200px;
+    margin: 50px 10px 10px;
+}
+
+.inputText {
+    text-align: center;
+}

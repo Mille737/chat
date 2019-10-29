@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link rel="stylesheet" type="text/css" href="chat.css">
+</head>
+
+<body class = "page">
+
+    <div class = "containerLeft">
+        <img id="avatarLeft" src="avatar1.png" alt="avatar">
+        <div class = "textContainer">
+            <p>Hello World!</p>
+            <div id="dateTime">
+            <script>
+            document.getElementById("dateTime").innerHTML = formatAMPM();
+            function formatAMPM() {
+            var d = new Date(),
+            minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
+            hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
+            ampm = d.getHours() >= 12 ? 'pm' : 'am',
+            months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+            days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+            return days[d.getDay()]+' '+months[d.getMonth()]+' '+d.getDate()+' '+d.getFullYear()+' '+hours+':'+minutes+ampm;
+            }
+            </script>
+            </div>
+        </div>
+    </div>
+
+   <!-- <div class = "containerRight">
+        <div class = "textContainer">
+            <p>Hello Back!</p>
+            <div id="dateTime1"></div>
+        </div>
+        <script>
+            document.getElementById("dateTime1").innerHTML = formatAMPM();
+
+            function formatAMPM() {
+                var d = new Date(),
+                    minutes = d.getMinutes().toString().length == 1 ? '0'+d.getMinutes() : d.getMinutes(),
+                    hours = d.getHours().toString().length == 1 ? '0'+d.getHours() : d.getHours(),
+                    ampm = d.getHours() >= 12 ? 'pm' : 'am',
+                    months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'],
+                    days = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+                return days[d.getDay()]+' '+months[d.getMonth()]+' '+d.getDate()+' '+d.getFullYear()+' '+hours+':'+minutes+ampm;
+            }
+        </script>
+        <img class = "imgright" src="avatar1.png" alt="avatar">
+    </div>
+        <div class="inputText">
+            <input class = "textField" type="text">
+            <br>
+            <input type="submit" value="Send">
+        </div> -->
+
+</body>
+</html>
