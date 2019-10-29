@@ -39,7 +39,7 @@ img {
 .containerRight {
     text-align: right;
     margin: 15px;
-    display: flex;
+    background-color: lightsteelblue;
 }
 
 
