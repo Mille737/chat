@@ -1,68 +1,63 @@
 .page {
-    margin: 70px 300px;
+    margin: 100px auto;
+    max-width: 600px;
 }
 
 img {
     border-radius: 50%;
     width: 65px;
-    padding: 5px;
-
+    max-height: 70px;
+    padding: 15px;
 }
+
+p {
+    max-width: 190px;
+    text-align: left;
+}
+
 
 .containerLeft {
-    float: left;
-    margin: 10px;
+    margin: 20px;
+    padding: 5px;
+    max-width: 300px;
     background-color: lightsteelblue;
     border-radius: 5px;
+    display: flex;
 }
 
-#avatarLeft {
-    padding: 15px;
+.textContainerLeft {
+    margin: 20px 10px 10px;
 }
-
-.textContainer {
-    float: right;
-}
-
-
-#dateTime {
-    text-align: right;
-    padding: 15px;
-}
-
-
-
-
 
 
 
 .containerRight {
-    text-align: right;
-    margin: 15px;
+    margin: 30px 20px 30px 250px;
+    padding: 5px;
+    max-width: 300px;
     background-color: lightsteelblue;
+    border-radius: 5px;
+    display: flex;
+}
+
+.textContainerRight {
+    margin: 20px 10px 10px;
 }
 
 
 
-
-
-.imgright {
-    float: right;
+.wrapper {
+    text-align: center;
 }
 
-
-
-
-#dateTime1 {
-    text-align: left;
-}
-
-.textField {
+.inputTextBox {
     width: 350px;
     height: 200px;
     margin: 50px 10px 10px;
+    text-align: center;
 }
 
-.inputText {
-    text-align: center;
+#submit {
+    background-color: lightgreen;
+    border-radius: 5px;
 }
