@@ -7,44 +7,41 @@ img {
     border-radius: 50%;
     width: 65px;
     max-height: 70px;
-    padding: 15px;
 }
 
 p {
-    max-width: 190px;
-    text-align: left;
+    margin: 15px 0;
 }
-
 
 .containerLeft {
     margin: 20px;
-    padding: 5px;
+    padding: 20px;
     max-width: 300px;
     background-color: lightsteelblue;
     border-radius: 5px;
     display: flex;
 }
 
-.textContainerLeft {
-    margin: 20px 10px 10px;
+.text-container {
+    flex-grow: 1;
 }
-
-
 
 .containerRight {
     margin: 30px 20px 30px 250px;
-    padding: 5px;
+    padding: 20px;
     max-width: 300px;
     background-color: lightsteelblue;
     border-radius: 5px;
     display: flex;
 }
 
-.textContainerRight {
-    margin: 20px 10px 10px;
+.avatarLeft {
+    margin-right: 15px;
 }
 
-
+.avatarRight {
+    margin-left: 15px;
+}
 
 .wrapper {
     text-align: center;
